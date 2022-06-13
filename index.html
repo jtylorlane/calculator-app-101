@@ -12,9 +12,14 @@
     <h1>Calculator</h1>
     <label for="first-number">First Number:</label>
     <!-- the "onkeyup" event listener passes its input's "value" to the "saveFirstNumber" function in the main.js file -->
-    <input type="number" id="first-Number" name="first-Number" placeholder="type the first number" value="" onkeyup="saveFirstNumber(this.value)">
+    <br><input type="number" id="first-Number" name="first-Number" placeholder="type the first number" value="" onkeyup="saveFirstNumber(this.value)">
+    <br>
+    <br>
     <label for="second-number">Second Number:</label>
+    <br>
     <input type="number" id="second-Number" name="second-Number" placeholder="type the second number" onkeyup="saveSecondNumber(this.value)">
+    <br>
+    <br>
     <div>
       <!-- the "onclick" event listener passes its element's "id" to the "changeOperation" function in the main.js file -->
       <button type="button" name="add" id="addition" onclick="changeOperation(this.id)">Add</button>
