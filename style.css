@@ -1,4 +1,8 @@
 body {
+  display: grid;
+  text-align: center;
+  background-color: rgb(83, 160, 201);
+  color: aliceblue;
   margin: 20% auto;
   width: 50%;
   height: 75%;
